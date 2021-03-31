@@ -24,7 +24,7 @@
         <fmt-maven-plugin>2.10</fmt-maven-plugin>
         <!--dependecies versions !-->
         <javafx>17-ea+5</javafx>
-        <lombok>1.18.12</lombok>
+        <lombok>1.18.18</lombok>
         <maven.compiler.source>15</maven.compiler.source>
         <maven.compiler.target>15</maven.compiler.target>
     </properties>
