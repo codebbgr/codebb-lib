@@ -25,6 +25,7 @@ import javafx.event.EventHandler;
 import javafx.scene.Node;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Alert.AlertType;
+import javafx.scene.control.Button;
 import javafx.scene.control.ButtonType;
 import javafx.scene.control.DialogEvent;
 import javafx.scene.control.Label;
@@ -144,6 +145,12 @@ public class AlertBuilder implements IDialogBuilder<AlertBuilder> {
     return this;
   }
 
+  public AlertBuilder buttonModify(ButtonType button, String text, String style) {
+    Button b = (Button) this.alert.getDialogPane().lookupButton(button);
+    b.setText(text);
+    b.getStyleClass().add(style);
+    return this;
+  }
   /** {@inheritDoc} */
   @Override
   public AlertBuilder withButtonTypes(ButtonType... buttonTypes) {
