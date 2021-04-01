@@ -15,7 +15,6 @@ package gr.codebb.codebblib.fxalert;
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-
 import java.util.Optional;
 import java.util.regex.Pattern;
 import javafx.event.EventHandler;
@@ -57,6 +56,12 @@ public class InputDialogBuilder implements IDialogBuilder<InputDialogBuilder> {
   @Override
   public InputDialogBuilder withStylesheet(String url) {
     dialog.getDialogPane().getStylesheets().add(url);
+    return this;
+  }
+
+  @Override
+  public InputDialogBuilder withTitle(String title) {
+    dialog.setTitle(title);
     return this;
   }
 

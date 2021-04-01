@@ -15,7 +15,6 @@ package gr.codebb.codebblib.fxalert;
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-
 import java.util.Optional;
 import javafx.event.EventHandler;
 import javafx.scene.Node;
@@ -78,6 +77,12 @@ public class ChoiceDialogBuilder implements IDialogBuilder<ChoiceDialogBuilder> 
   @Override
   public ChoiceDialogBuilder withStylesheet(String url) {
     dialog.getDialogPane().getStylesheets().add(url);
+    return this;
+  }
+
+  @Override
+  public ChoiceDialogBuilder withTitle(String title) {
+    dialog.setTitle(title);
     return this;
   }
 

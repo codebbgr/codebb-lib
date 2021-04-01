@@ -124,6 +124,12 @@ public class AlertBuilder implements IDialogBuilder<AlertBuilder> {
     return this;
   }
 
+  @Override
+  public AlertBuilder withTitle(String title) {
+    this.alert.setTitle(title);
+    return this;
+  }
+
   /** {@inheritDoc} */
   @Override
   public AlertBuilder withTitleBarIcon(Image image) {

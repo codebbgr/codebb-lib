@@ -90,6 +90,7 @@ public interface IDialogBuilder<T> {
     return withText("", "", String.format(content, args));
   }
 
+  T withTitle(String title);
   /**
    * Adds the given Image to the dialog's title bar
    *
