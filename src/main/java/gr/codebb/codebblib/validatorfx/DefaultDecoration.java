@@ -18,12 +18,12 @@ public class DefaultDecoration {
   private static final Image ERROR_IMAGE =
       new Image(
           DefaultDecoration.class
-              .getResource("/net/synedra/validatorfx/decoration-error.png")
+              .getResource("/gr/codebb/codebblib/validatorfx/decoration-error.png")
               .toExternalForm());
   private static final Image WARNING_IMAGE =
       new Image(
           DefaultDecoration.class
-              .getResource("/net/synedra/validatorfx/decoration-warning.png")
+              .getResource("/gr/codebb/codebblib/validatorfx/decoration-warning.png")
               .toExternalForm());
 
   private static final String POPUP_SHADOW_EFFECT =
