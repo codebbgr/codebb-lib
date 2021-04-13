@@ -3,4 +3,5 @@ module gr.codebb.codebblib {
 
   exports gr.codebb.codebblib.fxalert;
   exports gr.codebb.codebblib.validatorfx;
+  exports gr.codebb.codebblib.fxcontrols;
 }
