@@ -21,7 +21,7 @@
         <maven-project-info-reports-plugin>3.1.2</maven-project-info-reports-plugin>
         <spotbugs-maven-plugin>4.2.3</spotbugs-maven-plugin>
         <wagon-ftp>3.4.3</wagon-ftp>
-        <fmt-maven-plugin>2.10</fmt-maven-plugin>
+        <fmt-maven-plugin>2.11</fmt-maven-plugin>
         <!--dependecies versions !-->
         <javafx>17-ea+5</javafx>
         <lombok>1.18.20</lombok>
