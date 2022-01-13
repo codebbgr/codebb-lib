@@ -14,7 +14,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>15</java.version>
         <!--plugins versions !-->
-        <maven-compiler-plugin>3.8.1</maven-compiler-plugin>
+        <maven-compiler-plugin>3.9.0</maven-compiler-plugin>
         <versions.maven.plugin>2.8.1</versions.maven.plugin> <!-- plugin for checking dependecies -plugins updates !-->
         <maven-enforcer-plugin>3.0.0-M3</maven-enforcer-plugin> <!-- required to be able to check plugins updates !-->
         <maven-site-plugin>3.9.1</maven-site-plugin>
